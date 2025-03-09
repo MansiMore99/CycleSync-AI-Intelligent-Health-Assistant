@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +39,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -97,5 +94,72 @@
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
+
+  h1, h2, h3, h4 {
+    @apply font-serif font-medium;
+  }
+
+  p {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-white after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+
+  .btn-hover-effect {
+    @apply transition-all duration-300 hover:bg-opacity-90 active:scale-[0.98];
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-cyclesync-peach via-cyclesync-rose to-cyclesync-coral;
+  }
+}
+
+/* Custom background gradient */
+.peach-gradient {
+  background: linear-gradient(135deg, #f5b7a1 0%, #e8a89f 50%, #f0957e 100%);
+}
+
+/* Custom blur effect for glassmorphism */
+.glass-effect {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove outline for clicked elements */
+button:focus, a:focus {
+  outline: none;
+}
+
+/* Custom animation for links */
+.link-hover {
+  position: relative;
+}
+
+.link-hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: currentColor;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.link-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
