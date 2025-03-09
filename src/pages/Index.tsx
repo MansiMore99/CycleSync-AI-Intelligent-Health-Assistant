@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import TeamSection from '@/components/TeamSection';
-import { Link } from 'react-router-dom';
 
 const Index = () => {
   useEffect(() => {
@@ -16,8 +15,6 @@ const Index = () => {
       <Navbar />
       <Hero />
       <TeamSection />
-      
-      {/* We could add more sections here in the future */}
     </div>
   );
 };

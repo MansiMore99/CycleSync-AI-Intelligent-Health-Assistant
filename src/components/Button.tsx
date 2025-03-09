@@ -32,7 +32,7 @@ const Button = ({
   return (
     <button
       className={cn(
-        'rounded-full font-medium transition-all duration-300 animate-scale-in',
+        'rounded-full font-medium transition-all duration-200 animate-scale-in',
         'hover:shadow-md active:scale-[0.98]',
         variantClasses[variant],
         sizeClasses[size],
