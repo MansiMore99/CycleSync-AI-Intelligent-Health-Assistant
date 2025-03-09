@@ -1,4 +1,4 @@
-### CycleSync AI
+## CycleSync AI
 
  A Next.js-powered wellness assistant that personalizes workouts, nutrition, and self-care based on menstrual cycle phases. 🚀
  
@@ -6,29 +6,28 @@
 
 ### Steps:
 
-# Step 1: Clone the repository using the project's Git URL.
+**Step 1: Clone the repository using the project's Git URL.**
 ```
 git clone https://github.com/MansiMore99/CycleSync-AI-Intelligent-Health-Assistant.git
 ```
 
-# Step 2: Install the necessary dependencies.
+**Step 2: Install the necessary dependencies.**
 ```
 npm I
 ```
 
-
-# Step 3: Start the development server with auto-reloading and an instant preview.
+**Step 3: Start the development server with auto-reloading and an instant preview.**
 ```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
 - Click the "Edit" button (pencil icon) at the top right of the file view.
 - Make your changes and commit the changes.
 
-## What technologies are used for this project?
+### What technologies are used for this project?
 
 This project is built with
 
@@ -38,7 +37,7 @@ This project is built with
 - shadcn-ui
 - Tailwind CSS
 
-## 💬 Feedback & Support:
+### 💬 Feedback & Support:
 
 I'm always looking to improve! Share your thoughts and suggestions:
 
