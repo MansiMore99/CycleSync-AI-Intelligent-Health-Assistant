@@ -1,38 +1,19 @@
-# Welcome to your Lovable project
+### CycleSync AI
 
-## Project info
+A Next.js-powered wellness assistant that leverages AI to provide personalized recommendations for workouts, nutrition, and self-care based on menstrual cycle phases. Featuring a chatbot built with Quadrant, a graph database for symptom mapping, and an interactive user interface, CycleSync AI helps users align their lifestyle with their body's natural rhythm. 🚀
 
-**URL**: https://lovable.dev/projects/62017106-05cd-41e1-8d3b-f48293d38132
+<img width="1019" alt="Screenshot 2025-03-09 at 1 17 01 AM" src="https://github.com/user-attachments/assets/fffe95c5-62a4-4f89-8aa5-3d7d33945d5f" />
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/62017106-05cd-41e1-8d3b-f48293d38132) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/MansiMore99/CycleSync-AI-Intelligent-Health-Assistant.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+# Step 2: Install the necessary dependencies.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 3: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
@@ -42,17 +23,9 @@ npm run dev
 - Click the "Edit" button (pencil icon) at the top right of the file view.
 - Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
 ## What technologies are used for this project?
 
-This project is built with .
+This project is built with
 
 - Vite
 - TypeScript
@@ -60,10 +33,17 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## 💬 Feedback & Support:
 
-Simply open [Lovable](https://lovable.dev/projects/62017106-05cd-41e1-8d3b-f48293d38132) and click on Share -> Publish.
+I'm always looking to improve! Share your thoughts and suggestions:
 
-## I want to use a custom domain - is that possible?
+- **Email:** mansi.more943@gmail.com
+- **GitHub:** [MansiMore99](https://github.com/MansiMore99)
+- **Linkedin:** [MansiMore](https://linkedin.com/in/mansi-more-0943)
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 📢 Contributing:
+
+Would you be interested in contributing? I welcome your improvements and ideas. You can Fork the repository, make changes, and submit a pull request!
+
+
+<a href=
